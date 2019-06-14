@@ -15,8 +15,22 @@
     "git": "https://github.com/fitsyu/NSelectViewRadio.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/fitsyu",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "NSelectViewRadio/Classes/**/*"
+  "source_files": "NSelectViewRadio/Classes/**/*",
+  "resource_bundles": {
+    "NSelectViewRadio": [
+      "NSelectViewRadio/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "NSelect": [
+
+    ],
+    "UIRadioButton": [
+
+    ]
+  }
 }

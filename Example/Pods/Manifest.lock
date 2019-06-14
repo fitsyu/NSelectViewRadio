@@ -1,16 +1,36 @@
 PODS:
-  - NSelectViewRadio (0.1.0)
+  - NSelect (0.1.0)
+  - NSelectViewRadio (0.1.0):
+    - NSelect
+    - UIRadioButton
+  - UIRadioButton (0.1.5)
 
 DEPENDENCIES:
+  - NSelect (from `https://github.com/fitsyu/NSelect.git`)
   - NSelectViewRadio (from `../`)
+  - UIRadioButton (from `https://github.com/fitsyu/UIRadioButton.git`)
 
 EXTERNAL SOURCES:
+  NSelect:
+    :git: https://github.com/fitsyu/NSelect.git
   NSelectViewRadio:
     :path: "../"
+  UIRadioButton:
+    :git: https://github.com/fitsyu/UIRadioButton.git
+
+CHECKOUT OPTIONS:
+  NSelect:
+    :commit: 7b673bf6f2618f0e23b1363a3a74225ec9bee050
+    :git: https://github.com/fitsyu/NSelect.git
+  UIRadioButton:
+    :commit: d03003bf6c6383a37423b4c120a911f44922fe76
+    :git: https://github.com/fitsyu/UIRadioButton.git
 
 SPEC CHECKSUMS:
-  NSelectViewRadio: 0d4fecb300afac4a909148221ce896f1cb13d962
+  NSelect: 18cbb2ade83cbe62cbebe9d24dec61cfe279b104
+  NSelectViewRadio: 495084f56dc088842d6a14479bf1a32c468cae81
+  UIRadioButton: 7c232e5369e9b7371de4674cae13728f4544ac03
 
-PODFILE CHECKSUM: 03a9023c2c8c76e928493ae3d05cac9ebcdcfd5e
+PODFILE CHECKSUM: bd6051a4eaa367e307d4f9d20e80ea0b722d30f9
 
 COCOAPODS: 1.6.1
