@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0484159BC0AA061E0972438E2157BCC4 /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7D51276D9C52E3AC453B445987624 /* OptionViewCell.swift */; };
 		074C81D9E3676C06D5B2B55615810DC0 /* Pods-NSelectViewRadio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397B4D433F0FEBF3D15A1B832D6A9F11 /* Pods-NSelectViewRadio_Example-dummy.m */; };
 		1A0674B6DA2E356A70D7768422620279 /* DefaultNSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD5B246F8E8A74CD19F02ABA9C4F56 /* DefaultNSelectView.swift */; };
+		1A4CE23C28EB6499F57E43AC17F01FC0 /* UIRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC21F8ED7B05C6A7C00C2CBD3F95477 /* UIRadioButtonGroup.swift */; };
 		1D5E4023F07065FE22F42EBB1FE7E4AB /* NSelectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64957F2F11F345CEE776D95B3565AE03 /* NSelectError.swift */; };
-		2163B4B21473A0E4EF563E42187E3507 /* NSelectViewRadio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40E1C3D8F4BCB39A3DEA30774CBA95A7 /* NSelectViewRadio.bundle */; };
+		202B727F7F6A4CB9E4E799052A462C04 /* NSelectViewRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629E2D006ECD22AB6236929982232F0 /* NSelectViewRadio.swift */; };
+		25D2C6042F6527B46E91A6ED35B67EA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
 		27344D949F7CDE89D49B9937BD5F064B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
-		2FA08CD3E02080CF10D276F35B3168BF /* UIRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC21F8ED7B05C6A7C00C2CBD3F95477 /* UIRadioButtonGroup.swift */; };
+		283E2E46877D94CBDA98561189C3E282 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5393840AA2B2AD59E2063C42E9931169 /* OptionViewCell.xib */; };
 		372CCD78FAA3E04EAE101E03BC6D2BFE /* Pods-NSelectViewRadio_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6ED80FBF856011B4C7D7506D79878C /* Pods-NSelectViewRadio_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381E03403D4167D5E7B2706DFE1B3029 /* UIRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9481CFC46AFB582F18A7F9B1D5D36 /* UIRadioButton.framework */; };
 		3F05E3A2FA0386EBE7361EBF16343EF9 /* Pods-NSelectViewRadio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D2907BF2BD468EF299624487C08ED /* Pods-NSelectViewRadio_Tests-dummy.m */; };
 		3F44DD2E3848B1670CB28311C0D1FFD6 /* NSelect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FFBE96D0E1F2E39CD882C15DC87A2A /* NSelect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4052B373AFF19961747DA770BA39E75B /* NSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3EE8CE4FF710A4C036F1B296DD62B /* NSelect.swift */; };
-		41784215D9F70D7B55039738707A5B34 /* NSelectViewRadio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A4CB8E4C5B16375AAC101FEE32FDE0 /* NSelectViewRadio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42FF40FF9903921032394A1951275CCD /* NSelectViewRadio.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE1197DBD24152329FA2311720AF8CB3 /* NSelectViewRadio.xib */; };
 		4ECBD530669F14245035C343950ED8C7 /* NSelect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12204C7CCFC41480D16E868641C1FD0E /* NSelect-dummy.m */; };
-		538BFD0D3374BE82769CD3B40B9E8623 /* UIRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FC4AB705B1D69CC84E8D162054DDF /* UIRadioButton.swift */; };
-		5EDB5985412FD01C96283B2B4E8EF5BC /* UIRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA4DB81A2B82DB71C67F1532A1D5DF /* UIRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3C48BE01E12E97E3FC185599E649B3 /* UIRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FC4AB705B1D69CC84E8D162054DDF /* UIRadioButton.swift */; };
+		5AA34D51C2999D7B321D4633F8047E5D /* NSelectViewRadio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9DB78F42E5458E0410A6D6AC109D61 /* NSelectViewRadio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68F30B3704BC4F265756366225F03AFE /* Pods-NSelectViewRadio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5157B834A680F83D9F38480695E22D58 /* Pods-NSelectViewRadio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A54E30222B3A02600029A3D /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A54E30122B3A02600029A3D /* OptionViewCell.swift */; };
-		6C757E924CF956F438FB8FCF67BF5E65 /* UIRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9481CFC46AFB582F18A7F9B1D5D36 /* UIRadioButton.framework */; };
-		8F8BD69C3E4C82B20DA2CF1DE51464F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
-		A2DFDC21865D23EC6537AD5DE6AF1246 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3859873EC90415C406E8B8AE7F06D6E /* OptionViewCell.xib */; };
+		74C4B4C40034FC3C6D30CB8077FC560D /* NSelectViewRadio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40E1C3D8F4BCB39A3DEA30774CBA95A7 /* NSelectViewRadio.bundle */; };
+		9640778E4E9023F7265C3F19E5DFA57A /* UIRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8AD21620DBAAB2E9D8A851D9970C /* UIRadioButton-dummy.m */; };
+		B3796A1C588C04CD353C1A8F2FC9966E /* NSelectViewRadio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51067A4452238C5A4228E66AD19069 /* NSelectViewRadio-dummy.m */; };
+		B38D3BDE9838B6050534370477F1F546 /* NSelectViewRadio.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBEDEE37F6C5FF7CE1F2D76FC667040 /* NSelectViewRadio.xib */; };
 		B5F144DFD976F2FE70D673EDCD3D4B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
-		BCB2C5A59A675D8FE19B4BD6E67A9C82 /* UIRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF8AD21620DBAAB2E9D8A851D9970C /* UIRadioButton-dummy.m */; };
-		C26CB1C495DE90BF9A45BE97609E3653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
-		CF41FD1B2E734CC33BB0846C3804F948 /* NSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE1F4AEF20A7BF4DA73474AFE79ED59 /* NSelect.framework */; };
-		D416CC8C18CEE23D0968A311A488D7BB /* NSelectViewRadio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51334D7178EB87431ACAC2C56B8F4D2 /* NSelectViewRadio-dummy.m */; };
+		B8E9DD9BF01CA61C717142EDA5875171 /* UIRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA4DB81A2B82DB71C67F1532A1D5DF /* UIRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D81EE1AB6F417540E83756016127439D /* NSelectMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5928AB2BBAEDEB658614446ECEB86B7A /* NSelectMode.swift */; };
+		E4D8F4A04ED8F8358C4F8CD3AA59E0A2 /* NSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE1F4AEF20A7BF4DA73474AFE79ED59 /* NSelect.framework */; };
+		E56C4973E0B6B4DEF6C14E511615C973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
 		F0B19A924011219F7101EF7D922161DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */; };
-		F4D6831784352F1504DBB4812E81FD64 /* NSelectViewRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18EA98BDF406A3B4FCD1DAB7C4F3651 /* NSelectViewRadio.swift */; };
 		FE20657F69BA7EB0216717AFD3BAC981 /* NSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D4BFA92855FD99E45D4460358AB79C /* NSelectView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,15 +43,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF072849E02A4925E0C7FE82B65C4861;
+			remoteGlobalIDString = 195B4FBBA0CD02387E0CD3A601EF6529;
 			remoteInfo = NSelectViewRadio;
 		};
-		2E384112E1958EED3CE53DC9D178E57E /* PBXContainerItemProxy */ = {
+		3A29457CC5AC9438E2EC8F61BD4CB941 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBD6A5CBD2A189E9A2CA6202039A2745;
-			remoteInfo = "NSelectViewRadio-NSelectViewRadio";
+			remoteGlobalIDString = E8B59E6FA6819F99839B293DD8AB2169;
+			remoteInfo = NSelect;
 		};
 		4E72CFB3D18B92E0D5984F00B642127E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -67,25 +67,25 @@
 			remoteGlobalIDString = E8B59E6FA6819F99839B293DD8AB2169;
 			remoteInfo = NSelect;
 		};
-		5ADC35AB8EF7DDDDFE999281E4068C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A718AA44350663D0F366881AC6070F55;
-			remoteInfo = UIRadioButton;
-		};
-		880F2E6E81BCC96C53B28A00244940A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8B59E6FA6819F99839B293DD8AB2169;
-			remoteInfo = NSelect;
-		};
 		9158946EEEE20673D190728760022A12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A718AA44350663D0F366881AC6070F55;
+			remoteGlobalIDString = F9DCF2E177B73BFA447BCCD2DC694F88;
+			remoteInfo = UIRadioButton;
+		};
+		976487EEDF5A1AD248D93A89169D7E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C9CA242D1961CCC368CEBB6C1D8AA2;
+			remoteInfo = "NSelectViewRadio-NSelectViewRadio";
+		};
+		C6AD019BCC80D93D56BBE1C99ABA24E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9DCF2E177B73BFA447BCCD2DC694F88;
 			remoteInfo = UIRadioButton;
 		};
 /* End PBXContainerItemProxy section */
@@ -96,10 +96,13 @@
 		10E48E28316B25CE99B0F7EC5E56593D /* Pods-NSelectViewRadio_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewRadio_Tests-Info.plist"; sourceTree = "<group>"; };
 		12204C7CCFC41480D16E868641C1FD0E /* NSelect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSelect-dummy.m"; sourceTree = "<group>"; };
 		1A89E491804F3C1A32374D73724AF17C /* NSelect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelect-prefix.pch"; sourceTree = "<group>"; };
+		1CBEDEE37F6C5FF7CE1F2D76FC667040 /* NSelectViewRadio.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NSelectViewRadio.xib; path = NSelectViewRadio/Assets/NSelectViewRadio.xib; sourceTree = "<group>"; };
 		1D2176CAA4AD58C9B5429C516122A98F /* Pods-NSelectViewRadio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewRadio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DD77E7E1E3B74D579AAB09B5DB56B58 /* NSelect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSelect.modulemap; sourceTree = "<group>"; };
 		1E14336E876E12D2BBA1E8295B675FDB /* UIRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIRadioButton-Info.plist"; sourceTree = "<group>"; };
-		2908509635878B6C39781A9507B654F2 /* NSelectViewRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSelectViewRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2496F449C73BE0F03A8CF1BF936D638A /* NSelectViewRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSelectViewRadio-Info.plist"; sourceTree = "<group>"; };
+		2629E2D006ECD22AB6236929982232F0 /* NSelectViewRadio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectViewRadio.swift; path = NSelectViewRadio/Classes/NSelectViewRadio.swift; sourceTree = "<group>"; };
+		2908509635878B6C39781A9507B654F2 /* NSelectViewRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSelectViewRadio.framework; path = NSelectViewRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		295D2907BF2BD468EF299624487C08ED /* Pods-NSelectViewRadio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSelectViewRadio_Tests-dummy.m"; sourceTree = "<group>"; };
 		322FC4AB705B1D69CC84E8D162054DDF /* UIRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIRadioButton.swift; path = UIRadioButton/Classes/UIRadioButton.swift; sourceTree = "<group>"; };
 		3384D007C64A73BDC51C6512AF8B4079 /* UIRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIRadioButton-prefix.pch"; sourceTree = "<group>"; };
@@ -107,68 +110,50 @@
 		35F629CF063CF73FB45E9DBB18967382 /* Pods-NSelectViewRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		397B4D433F0FEBF3D15A1B832D6A9F11 /* Pods-NSelectViewRadio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSelectViewRadio_Example-dummy.m"; sourceTree = "<group>"; };
 		39FD5B246F8E8A74CD19F02ABA9C4F56 /* DefaultNSelectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultNSelectView.swift; path = NSelect/Classes/DefaultNSelectView.swift; sourceTree = "<group>"; };
-		40282BD7C4B0DD7D539E0FA54CABFA26 /* Pods_NSelectViewRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSelectViewRadio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40282BD7C4B0DD7D539E0FA54CABFA26 /* Pods_NSelectViewRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSelectViewRadio_Tests.framework; path = "Pods-NSelectViewRadio_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409E6D4B663CD5EC5661E339E87452D1 /* NSelect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSelect-Info.plist"; sourceTree = "<group>"; };
-		40E1C3D8F4BCB39A3DEA30774CBA95A7 /* NSelectViewRadio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSelectViewRadio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		499D822FF15BE75489EEF8564126198F /* NSelectViewRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSelectViewRadio-Info.plist"; sourceTree = "<group>"; };
+		40E1C3D8F4BCB39A3DEA30774CBA95A7 /* NSelectViewRadio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NSelectViewRadio.bundle; path = "NSelectViewRadio-NSelectViewRadio.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D51067A4452238C5A4228E66AD19069 /* NSelectViewRadio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSelectViewRadio-dummy.m"; sourceTree = "<group>"; };
 		4D5C163FA5927908D1E97CE130F06BEC /* Pods-NSelectViewRadio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSelectViewRadio_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F9D23D50C4A556C6A582EAC6C172889 /* UIRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9D23D50C4A556C6A582EAC6C172889 /* UIRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIRadioButton.framework; path = UIRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5157B834A680F83D9F38480695E22D58 /* Pods-NSelectViewRadio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSelectViewRadio_Example-umbrella.h"; sourceTree = "<group>"; };
-		586DCF0630FBEC0AEDB934B75AA0C526 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5393840AA2B2AD59E2063C42E9931169 /* OptionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = OptionViewCell.xib; path = NSelectViewRadio/Assets/OptionViewCell.xib; sourceTree = "<group>"; };
 		5928AB2BBAEDEB658614446ECEB86B7A /* NSelectMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectMode.swift; path = NSelect/Classes/NSelectMode.swift; sourceTree = "<group>"; };
+		5B71AAA20035F503804905762314C8F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		64957F2F11F345CEE776D95B3565AE03 /* NSelectError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectError.swift; path = NSelect/Classes/NSelectError.swift; sourceTree = "<group>"; };
-		66D844135695F239379BE3936587689A /* NSelectViewRadio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewRadio-prefix.pch"; sourceTree = "<group>"; };
-		6A54E30122B3A02600029A3D /* OptionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptionViewCell.swift; path = NSelectViewRadio/Classes/OptionViewCell.swift; sourceTree = "<group>"; };
+		681D50B2137738071FDE0341EEC24C3F /* NSelectViewRadio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewRadio-prefix.pch"; sourceTree = "<group>"; };
 		6AC21F8ED7B05C6A7C00C2CBD3F95477 /* UIRadioButtonGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIRadioButtonGroup.swift; path = UIRadioButton/Classes/UIRadioButtonGroup.swift; sourceTree = "<group>"; };
 		76C39998915E115109F871BA96B7EAB7 /* Pods-NSelectViewRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77B7C4C278594E1B108C40BB324768E0 /* NSelectViewRadio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSelectViewRadio.modulemap; sourceTree = "<group>"; };
 		7E98CDCBE87AC188711934F2BA9E17A7 /* NSelect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSelect.xcconfig; sourceTree = "<group>"; };
-		7F25494177C72829BB70447BD46D6860 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7FDA4DB81A2B82DB71C67F1532A1D5DF /* UIRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIRadioButton-umbrella.h"; sourceTree = "<group>"; };
-		83A4CB8E4C5B16375AAC101FEE32FDE0 /* NSelectViewRadio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewRadio-umbrella.h"; sourceTree = "<group>"; };
 		83C497780EA6341C572B13F13660B621 /* UIRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIRadioButton.xcconfig; sourceTree = "<group>"; };
-		892C0782BCD2243907D0E390C264A906 /* NSelectViewRadio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSelectViewRadio.modulemap; sourceTree = "<group>"; };
 		8CC3EE8CE4FF710A4C036F1B296DD62B /* NSelect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelect.swift; path = NSelect/Classes/NSelect.swift; sourceTree = "<group>"; };
 		8E6ED80FBF856011B4C7D7506D79878C /* Pods-NSelectViewRadio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSelectViewRadio_Tests-umbrella.h"; sourceTree = "<group>"; };
 		97D4BFA92855FD99E45D4460358AB79C /* NSelectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectView.swift; path = NSelect/Classes/NSelectView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3859873EC90415C406E8B8AE7F06D6E /* OptionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = OptionViewCell.xib; path = NSelectViewRadio/Assets/OptionViewCell.xib; sourceTree = "<group>"; };
+		9D4491464E9335AA328E860CFA86B33C /* ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4B4955892CDB884D626896422B4E1CB /* Pods-NSelectViewRadio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE1197DBD24152329FA2311720AF8CB3 /* NSelectViewRadio.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NSelectViewRadio.xib; path = NSelectViewRadio/Assets/NSelectViewRadio.xib; sourceTree = "<group>"; };
-		BA899120DAD26CF97528F767931E6CEF /* NSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBA71DDF7889A6E67B341B153F0F7466 /* NSelectViewRadio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSelectViewRadio.xcconfig; sourceTree = "<group>"; };
+		B88023D55E21A7034044F0EC2A8BDEE4 /* NSelectViewRadio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSelectViewRadio.xcconfig; sourceTree = "<group>"; };
+		BA899120DAD26CF97528F767931E6CEF /* NSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSelect.framework; path = NSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF8E2E7E11C97FC4914A4C949F655CA /* NSelectViewRadio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NSelectViewRadio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3FFBE96D0E1F2E39CD882C15DC87A2A /* NSelect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelect-umbrella.h"; sourceTree = "<group>"; };
-		C51334D7178EB87431ACAC2C56B8F4D2 /* NSelectViewRadio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSelectViewRadio-dummy.m"; sourceTree = "<group>"; };
 		C5C203E0D6FBC56F734A346E3B57C413 /* Pods-NSelectViewRadio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD4DA1390B4F216959BFDA3DA6D8D92A /* UIRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIRadioButton.modulemap; sourceTree = "<group>"; };
 		D5CF8AD21620DBAAB2E9D8A851D9970C /* UIRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIRadioButton-dummy.m"; sourceTree = "<group>"; };
-		D68F9F32DB8C00329F06D286D4C98821 /* ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist"; sourceTree = "<group>"; };
-		DBF1E6AE34B5E009A5B81BA50DE4B2E0 /* NSelectViewRadio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NSelectViewRadio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E13866703254B77AE79055884A554227 /* Pods-NSelectViewRadio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSelectViewRadio_Tests.modulemap"; sourceTree = "<group>"; };
-		E94A998F3F8B56248B65D4AEF20FB837 /* Pods_NSelectViewRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSelectViewRadio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60AE889A797F01602EA4B18E3342943 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E94A998F3F8B56248B65D4AEF20FB837 /* Pods_NSelectViewRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSelectViewRadio_Example.framework; path = "Pods-NSelectViewRadio_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA274587DF6C50CB66B51CA83284B7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F18EA98BDF406A3B4FCD1DAB7C4F3651 /* NSelectViewRadio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSelectViewRadio.swift; path = NSelectViewRadio/Classes/NSelectViewRadio.swift; sourceTree = "<group>"; };
 		F5F9481CFC46AFB582F18A7F9B1D5D36 /* UIRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66463BD00DD06F9D071A57CB68DD7AF /* Pods-NSelectViewRadio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSelectViewRadio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6D7D51276D9C52E3AC453B445987624 /* OptionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionViewCell.swift; path = NSelectViewRadio/Classes/OptionViewCell.swift; sourceTree = "<group>"; };
 		F7D4C78454CDBC3372B4A5791FA483ED /* Pods-NSelectViewRadio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSelectViewRadio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FC5E08DD3275C0CFE6185CC4067348DF /* Pods-NSelectViewRadio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSelectViewRadio_Example.modulemap"; sourceTree = "<group>"; };
+		FC9DB78F42E5458E0410A6D6AC109D61 /* NSelectViewRadio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewRadio-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03CFF0685629BFB07BA46CF88A694258 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2462ECD7B9885CC093D6981013E5C52F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F8BD69C3E4C82B20DA2CF1DE51464F7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71215CC5559EB9F05BF250891CE3C386 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,21 +162,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE5B77BE407306DD583DB4743E798AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFF5A76A59E3ED21526AF6F66364237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56C4973E0B6B4DEF6C14E511615C973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3907888B094E79ABEC736E89A82F140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D2C6042F6527B46E91A6ED35B67EA7 /* Foundation.framework in Frameworks */,
+				E4D8F4A04ED8F8358C4F8CD3AA59E0A2 /* NSelect.framework in Frameworks */,
+				381E03403D4167D5E7B2706DFE1B3029 /* UIRadioButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE4B131C14689D7335361EC61D6CD96C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				27344D949F7CDE89D49B9937BD5F064B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFF002B1E3ACD6B9B1195FFF607A5B0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C26CB1C495DE90BF9A45BE97609E3653 /* Foundation.framework in Frameworks */,
-				CF41FD1B2E734CC33BB0846C3804F948 /* NSelect.framework in Frameworks */,
-				6C757E924CF956F438FB8FCF67BF5E65 /* UIRadioButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +206,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2614E9C1E516CF3C8CF549670E1E04C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B71AAA20035F503804905762314C8F9 /* LICENSE */,
+				BFF8E2E7E11C97FC4914A4C949F655CA /* NSelectViewRadio.podspec */,
+				E60AE889A797F01602EA4B18E3342943 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3773792128641B4955C2F0F40AD52838 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,23 +234,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4FFC5037AA62FBB5B44F76182DA20587 /* Pod */ = {
+		475E0721126B60CEFE5E1A035F0B83DD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				586DCF0630FBEC0AEDB934B75AA0C526 /* LICENSE */,
-				DBF1E6AE34B5E009A5B81BA50DE4B2E0 /* NSelectViewRadio.podspec */,
-				7F25494177C72829BB70447BD46D6860 /* README.md */,
+				8BBF874DD0DD7E5937D7074371984726 /* NSelectViewRadio */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5A710D669FEFA6B4A80D51D46FE3647A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AE1197DBD24152329FA2311720AF8CB3 /* NSelectViewRadio.xib */,
-				A3859873EC90415C406E8B8AE7F06D6E /* OptionViewCell.xib */,
-			);
-			name = Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6BA4CCC809676FA58F84E5712F07F5EF /* Support Files */ = {
@@ -257,40 +256,41 @@
 			path = "../Target Support Files/UIRadioButton";
 			sourceTree = "<group>";
 		};
-		7C27B9E9C14DE45D081571BAE0E3E1B8 /* Support Files */ = {
+		7C0BFB3AAAA73942A74D4BBD89DC57AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				892C0782BCD2243907D0E390C264A906 /* NSelectViewRadio.modulemap */,
-				BBA71DDF7889A6E67B341B153F0F7466 /* NSelectViewRadio.xcconfig */,
-				C51334D7178EB87431ACAC2C56B8F4D2 /* NSelectViewRadio-dummy.m */,
-				499D822FF15BE75489EEF8564126198F /* NSelectViewRadio-Info.plist */,
-				66D844135695F239379BE3936587689A /* NSelectViewRadio-prefix.pch */,
-				83A4CB8E4C5B16375AAC101FEE32FDE0 /* NSelectViewRadio-umbrella.h */,
-				D68F9F32DB8C00329F06D286D4C98821 /* ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist */,
+				77B7C4C278594E1B108C40BB324768E0 /* NSelectViewRadio.modulemap */,
+				B88023D55E21A7034044F0EC2A8BDEE4 /* NSelectViewRadio.xcconfig */,
+				4D51067A4452238C5A4228E66AD19069 /* NSelectViewRadio-dummy.m */,
+				2496F449C73BE0F03A8CF1BF936D638A /* NSelectViewRadio-Info.plist */,
+				681D50B2137738071FDE0341EEC24C3F /* NSelectViewRadio-prefix.pch */,
+				FC9DB78F42E5458E0410A6D6AC109D61 /* NSelectViewRadio-umbrella.h */,
+				9D4491464E9335AA328E860CFA86B33C /* ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NSelectViewRadio";
 			sourceTree = "<group>";
 		};
-		99E120D8A7BC1A42E993273A7E1A6B30 /* Development Pods */ = {
+		8BBF874DD0DD7E5937D7074371984726 /* NSelectViewRadio */ = {
 			isa = PBXGroup;
 			children = (
-				A5051BF173C226B03856524E49F0B58A /* NSelectViewRadio */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A5051BF173C226B03856524E49F0B58A /* NSelectViewRadio */ = {
-			isa = PBXGroup;
-			children = (
-				F18EA98BDF406A3B4FCD1DAB7C4F3651 /* NSelectViewRadio.swift */,
-				4FFC5037AA62FBB5B44F76182DA20587 /* Pod */,
-				5A710D669FEFA6B4A80D51D46FE3647A /* Resources */,
-				7C27B9E9C14DE45D081571BAE0E3E1B8 /* Support Files */,
-				6A54E30122B3A02600029A3D /* OptionViewCell.swift */,
+				2629E2D006ECD22AB6236929982232F0 /* NSelectViewRadio.swift */,
+				F6D7D51276D9C52E3AC453B445987624 /* OptionViewCell.swift */,
+				2614E9C1E516CF3C8CF549670E1E04C4 /* Pod */,
+				8F33874430495ACD43C4156BEE73FDCC /* Resources */,
+				7C0BFB3AAAA73942A74D4BBD89DC57AF /* Support Files */,
 			);
 			name = NSelectViewRadio;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F33874430495ACD43C4156BEE73FDCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CBEDEE37F6C5FF7CE1F2D76FC667040 /* NSelectViewRadio.xib */,
+				5393840AA2B2AD59E2063C42E9931169 /* OptionViewCell.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A8ECF73905A3D34103A8217AC3ACFB54 /* Pods-NSelectViewRadio_Tests */ = {
@@ -330,6 +330,7 @@
 				6AC21F8ED7B05C6A7C00C2CBD3F95477 /* UIRadioButtonGroup.swift */,
 				6BA4CCC809676FA58F84E5712F07F5EF /* Support Files */,
 			);
+			name = UIRadioButton;
 			path = UIRadioButton;
 			sourceTree = "<group>";
 		};
@@ -337,7 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				99E120D8A7BC1A42E993273A7E1A6B30 /* Development Pods */,
+				475E0721126B60CEFE5E1A035F0B83DD /* Development Pods */,
 				E4DD5F92A3AE28786D2BB164C46F6064 /* Frameworks */,
 				3773792128641B4955C2F0F40AD52838 /* Pods */,
 				DFB16422CD2D21F1BB85718E23902991 /* Products */,
@@ -403,25 +404,26 @@
 				97D4BFA92855FD99E45D4460358AB79C /* NSelectView.swift */,
 				B1E89D937AA575E2B8CCD36E8C95B638 /* Support Files */,
 			);
+			name = NSelect;
 			path = NSelect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32CE88C246A9A2353D4855734D4492D2 /* Headers */ = {
+		99D43F338372BF7D82CB4B198B374435 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EDB5985412FD01C96283B2B4E8EF5BC /* UIRadioButton-umbrella.h in Headers */,
+				B8E9DD9BF01CA61C717142EDA5875171 /* UIRadioButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61970597CB8689BCCF1457AF578EFA3D /* Headers */ = {
+		9EA846C4E6F57F22585726C6A2FA511C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41784215D9F70D7B55039738707A5B34 /* NSelectViewRadio-umbrella.h in Headers */,
+				5AA34D51C2999D7B321D4633F8047E5D /* NSelectViewRadio-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +454,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		195B4FBBA0CD02387E0CD3A601EF6529 /* NSelectViewRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE22ED380EF170994E5438C0CCF64623 /* Build configuration list for PBXNativeTarget "NSelectViewRadio" */;
+			buildPhases = (
+				9EA846C4E6F57F22585726C6A2FA511C /* Headers */,
+				3011463232F416E46F2D6A293F1EAC74 /* Sources */,
+				D3907888B094E79ABEC736E89A82F140 /* Frameworks */,
+				848714FE78CD97A2EBC61E0A8D832D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A434F26C583608D5EEF62EF0DF2B54 /* PBXTargetDependency */,
+				53D998CBE817575A6FC04875825FC329 /* PBXTargetDependency */,
+				19FF829DCD29FC38F2FD8A96EBCD5D2E /* PBXTargetDependency */,
+			);
+			name = NSelectViewRadio;
+			productName = NSelectViewRadio;
+			productReference = 2908509635878B6C39781A9507B654F2 /* NSelectViewRadio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		29CF8314FFE3B7E8D569658BDFD55C35 /* Pods-NSelectViewRadio_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A92462703EDFA5EF39B0DD5815B3E106 /* Build configuration list for PBXNativeTarget "Pods-NSelectViewRadio_Example" */;
@@ -473,31 +496,13 @@
 			productReference = E94A998F3F8B56248B65D4AEF20FB837 /* Pods_NSelectViewRadio_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A718AA44350663D0F366881AC6070F55 /* UIRadioButton */ = {
+		36C9CA242D1961CCC368CEBB6C1D8AA2 /* NSelectViewRadio-NSelectViewRadio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26E34B0A16224F555319274C368DF3C5 /* Build configuration list for PBXNativeTarget "UIRadioButton" */;
+			buildConfigurationList = 3B385FDB29DF761EFCA870B582A4E1A2 /* Build configuration list for PBXNativeTarget "NSelectViewRadio-NSelectViewRadio" */;
 			buildPhases = (
-				32CE88C246A9A2353D4855734D4492D2 /* Headers */,
-				B57804633CBF08A010AB0EFC6DF554C9 /* Sources */,
-				2462ECD7B9885CC093D6981013E5C52F /* Frameworks */,
-				6194E3280E502C36BD7E9601D54E6598 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UIRadioButton;
-			productName = UIRadioButton;
-			productReference = 4F9D23D50C4A556C6A582EAC6C172889 /* UIRadioButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BBD6A5CBD2A189E9A2CA6202039A2745 /* NSelectViewRadio-NSelectViewRadio */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23A3E3048D275E2A217D08C17028E2AF /* Build configuration list for PBXNativeTarget "NSelectViewRadio-NSelectViewRadio" */;
-			buildPhases = (
-				90B61BE0C4CDDDD695431A02D1B99865 /* Sources */,
-				03CFF0685629BFB07BA46CF88A694258 /* Frameworks */,
-				C78F860D2483DB9BC1D7CA8A20E9691B /* Resources */,
+				B19F4FCF9D2BE33E459DBB0B40AD211A /* Sources */,
+				BE5B77BE407306DD583DB4743E798AE7 /* Frameworks */,
+				8BC5F34ACD0E0FF7B3303D09B54F46F3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -507,27 +512,6 @@
 			productName = "NSelectViewRadio-NSelectViewRadio";
 			productReference = 40E1C3D8F4BCB39A3DEA30774CBA95A7 /* NSelectViewRadio.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		CF072849E02A4925E0C7FE82B65C4861 /* NSelectViewRadio */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A24C6332119ECB84BC1111D701E7B39 /* Build configuration list for PBXNativeTarget "NSelectViewRadio" */;
-			buildPhases = (
-				61970597CB8689BCCF1457AF578EFA3D /* Headers */,
-				C5F9D9C6B2F62EA2798501F62849A7B9 /* Sources */,
-				DFF002B1E3ACD6B9B1195FFF607A5B0A /* Frameworks */,
-				7FB4FE99440F9A55005E1FFC9B0BB9E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C927FAC164C964A499451A2150119A2D /* PBXTargetDependency */,
-				354F146C18C83E27228BCF741077BCF7 /* PBXTargetDependency */,
-				B2347FA42F7FC74BF9AFA1F422413ACC /* PBXTargetDependency */,
-			);
-			name = NSelectViewRadio;
-			productName = NSelectViewRadio;
-			productReference = 2908509635878B6C39781A9507B654F2 /* NSelectViewRadio.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		E8B59E6FA6819F99839B293DD8AB2169 /* NSelect */ = {
 			isa = PBXNativeTarget;
@@ -545,6 +529,24 @@
 			name = NSelect;
 			productName = NSelect;
 			productReference = BA899120DAD26CF97528F767931E6CEF /* NSelect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9DCF2E177B73BFA447BCCD2DC694F88 /* UIRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F2CCACF2BA6CCE7C25C04B8B12F70F /* Build configuration list for PBXNativeTarget "UIRadioButton" */;
+			buildPhases = (
+				99D43F338372BF7D82CB4B198B374435 /* Headers */,
+				DA9B5CD94C5A5890210A27C546833073 /* Sources */,
+				BEFF5A76A59E3ED21526AF6F66364237 /* Frameworks */,
+				0483F862132F5ABE76977099C8E8F0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRadioButton;
+			productName = UIRadioButton;
+			productReference = 4F9D23D50C4A556C6A582EAC6C172889 /* UIRadioButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB1A2E34DFB76DC4BC788A0BA1057C51 /* Pods-NSelectViewRadio_Tests */ = {
@@ -588,16 +590,23 @@
 			projectRoot = "";
 			targets = (
 				E8B59E6FA6819F99839B293DD8AB2169 /* NSelect */,
-				CF072849E02A4925E0C7FE82B65C4861 /* NSelectViewRadio */,
-				BBD6A5CBD2A189E9A2CA6202039A2745 /* NSelectViewRadio-NSelectViewRadio */,
+				195B4FBBA0CD02387E0CD3A601EF6529 /* NSelectViewRadio */,
+				36C9CA242D1961CCC368CEBB6C1D8AA2 /* NSelectViewRadio-NSelectViewRadio */,
 				29CF8314FFE3B7E8D569658BDFD55C35 /* Pods-NSelectViewRadio_Example */,
 				FB1A2E34DFB76DC4BC788A0BA1057C51 /* Pods-NSelectViewRadio_Tests */,
-				A718AA44350663D0F366881AC6070F55 /* UIRadioButton */,
+				F9DCF2E177B73BFA447BCCD2DC694F88 /* UIRadioButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0483F862132F5ABE76977099C8E8F0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		096CF91CF5F840669FDA1725A958FCC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,27 +614,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6194E3280E502C36BD7E9601D54E6598 /* Resources */ = {
+		848714FE78CD97A2EBC61E0A8D832D04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C4B4C40034FC3C6D30CB8077FC560D /* NSelectViewRadio.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FB4FE99440F9A55005E1FFC9B0BB9E0 /* Resources */ = {
+		8BC5F34ACD0E0FF7B3303D09B54F46F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2163B4B21473A0E4EF563E42187E3507 /* NSelectViewRadio.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C78F860D2483DB9BC1D7CA8A20E9691B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42FF40FF9903921032394A1951275CCD /* NSelectViewRadio.xib in Resources */,
-				A2DFDC21865D23EC6537AD5DE6AF1246 /* OptionViewCell.xib in Resources */,
+				B38D3BDE9838B6050534370477F1F546 /* NSelectViewRadio.xib in Resources */,
+				283E2E46877D94CBDA98561189C3E282 /* OptionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +661,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3011463232F416E46F2D6A293F1EAC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3796A1C588C04CD353C1A8F2FC9966E /* NSelectViewRadio-dummy.m in Sources */,
+				202B727F7F6A4CB9E4E799052A462C04 /* NSelectViewRadio.swift in Sources */,
+				0484159BC0AA061E0972438E2157BCC4 /* OptionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		781F58E101E16E3A20895DDC7DDEEC3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,30 +679,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B61BE0C4CDDDD695431A02D1B99865 /* Sources */ = {
+		B19F4FCF9D2BE33E459DBB0B40AD211A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B57804633CBF08A010AB0EFC6DF554C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCB2C5A59A675D8FE19B4BD6E67A9C82 /* UIRadioButton-dummy.m in Sources */,
-				538BFD0D3374BE82769CD3B40B9E8623 /* UIRadioButton.swift in Sources */,
-				2FA08CD3E02080CF10D276F35B3168BF /* UIRadioButtonGroup.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5F9D9C6B2F62EA2798501F62849A7B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D416CC8C18CEE23D0968A311A488D7BB /* NSelectViewRadio-dummy.m in Sources */,
-				F4D6831784352F1504DBB4812E81FD64 /* NSelectViewRadio.swift in Sources */,
-				6A54E30222B3A02600029A3D /* OptionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,19 +694,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA9B5CD94C5A5890210A27C546833073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9640778E4E9023F7265C3F19E5DFA57A /* UIRadioButton-dummy.m in Sources */,
+				5A3C48BE01E12E97E3FC185599E649B3 /* UIRadioButton.swift in Sources */,
+				1A4CE23C28EB6499F57E43AC17F01FC0 /* UIRadioButtonGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		354F146C18C83E27228BCF741077BCF7 /* PBXTargetDependency */ = {
+		19FF829DCD29FC38F2FD8A96EBCD5D2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "NSelectViewRadio-NSelectViewRadio";
-			target = BBD6A5CBD2A189E9A2CA6202039A2745 /* NSelectViewRadio-NSelectViewRadio */;
-			targetProxy = 2E384112E1958EED3CE53DC9D178E57E /* PBXContainerItemProxy */;
+			name = UIRadioButton;
+			target = F9DCF2E177B73BFA447BCCD2DC694F88 /* UIRadioButton */;
+			targetProxy = C6AD019BCC80D93D56BBE1C99ABA24E0 /* PBXContainerItemProxy */;
+		};
+		35A434F26C583608D5EEF62EF0DF2B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSelect;
+			target = E8B59E6FA6819F99839B293DD8AB2169 /* NSelect */;
+			targetProxy = 3A29457CC5AC9438E2EC8F61BD4CB941 /* PBXContainerItemProxy */;
 		};
 		43182FC3516A885EBE71A433359289F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIRadioButton;
-			target = A718AA44350663D0F366881AC6070F55 /* UIRadioButton */;
+			target = F9DCF2E177B73BFA447BCCD2DC694F88 /* UIRadioButton */;
 			targetProxy = 9158946EEEE20673D190728760022A12 /* PBXContainerItemProxy */;
 		};
 		460458821F435041599AD16335D77C34 /* PBXTargetDependency */ = {
@@ -723,10 +731,16 @@
 			target = 29CF8314FFE3B7E8D569658BDFD55C35 /* Pods-NSelectViewRadio_Example */;
 			targetProxy = 4E72CFB3D18B92E0D5984F00B642127E /* PBXContainerItemProxy */;
 		};
+		53D998CBE817575A6FC04875825FC329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSelectViewRadio-NSelectViewRadio";
+			target = 36C9CA242D1961CCC368CEBB6C1D8AA2 /* NSelectViewRadio-NSelectViewRadio */;
+			targetProxy = 976487EEDF5A1AD248D93A89169D7E72 /* PBXContainerItemProxy */;
+		};
 		A59E6EB119A49821075C5EC1565ACD4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NSelectViewRadio;
-			target = CF072849E02A4925E0C7FE82B65C4861 /* NSelectViewRadio */;
+			target = 195B4FBBA0CD02387E0CD3A601EF6529 /* NSelectViewRadio */;
 			targetProxy = 083DC2D4BE9ED1CF55F47109A1C3C1D1 /* PBXContainerItemProxy */;
 		};
 		AB0765370FE72BDEDD998DE017B8B64E /* PBXTargetDependency */ = {
@@ -735,21 +749,57 @@
 			target = E8B59E6FA6819F99839B293DD8AB2169 /* NSelect */;
 			targetProxy = 574C1175D24ECD53AAFD5BE099872F7D /* PBXContainerItemProxy */;
 		};
-		B2347FA42F7FC74BF9AFA1F422413ACC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIRadioButton;
-			target = A718AA44350663D0F366881AC6070F55 /* UIRadioButton */;
-			targetProxy = 5ADC35AB8EF7DDDDFE999281E4068C40 /* PBXContainerItemProxy */;
-		};
-		C927FAC164C964A499451A2150119A2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NSelect;
-			target = E8B59E6FA6819F99839B293DD8AB2169 /* NSelect */;
-			targetProxy = 880F2E6E81BCC96C53B28A00244940A1 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2CCD5E3F5DD540B70ABC850FCC32C86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88023D55E21A7034044F0EC2A8BDEE4 /* NSelectViewRadio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSelectViewRadio";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = NSelectViewRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		321E774E7EBD0BDEA4FD589FB3F800E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88023D55E21A7034044F0EC2A8BDEE4 /* NSelectViewRadio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewRadio/NSelectViewRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio.modulemap";
+				PRODUCT_MODULE_NAME = NSelectViewRadio;
+				PRODUCT_NAME = NSelectViewRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		35C8DF861D16EFF0FD957598EBF2519B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35F629CF063CF73FB45E9DBB18967382 /* Pods-NSelectViewRadio_Example.debug.xcconfig */;
@@ -783,7 +833,7 @@
 			};
 			name = Debug;
 		};
-		35F97B6A89BB7F8C854C4B1156B72331 /* Debug */ = {
+		45D9895131A80B49CC2D7C3BA9016579 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83C497780EA6341C572B13F13660B621 /* UIRadioButton.xcconfig */;
 			buildSettings = {
@@ -847,53 +897,6 @@
 			};
 			name = Debug;
 		};
-		52E895B4DE4674692E01935E2582A8EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA71DDF7889A6E67B341B153F0F7466 /* NSelectViewRadio.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewRadio/NSelectViewRadio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio.modulemap";
-				PRODUCT_MODULE_NAME = NSelectViewRadio;
-				PRODUCT_NAME = NSelectViewRadio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		707BBFA826E388FD8F798AC65247EC1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA71DDF7889A6E67B341B153F0F7466 /* NSelectViewRadio.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSelectViewRadio";
-				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_NAME = NSelectViewRadio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		79BDDC5A2E53772395E40A5458E41B83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E98CDCBE87AC188711934F2BA9E17A7 /* NSelect.xcconfig */;
@@ -926,37 +929,21 @@
 			};
 			name = Release;
 		};
-		86BE522858D516343A2481768D4E467F /* Release */ = {
+		83455FC1AFCEF2C8A6A357584B5620B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83C497780EA6341C572B13F13660B621 /* UIRadioButton.xcconfig */;
+			baseConfigurationReference = B88023D55E21A7034044F0EC2A8BDEE4 /* NSelectViewRadio.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIRadioButton/UIRadioButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIRadioButton/UIRadioButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIRadioButton/UIRadioButton.modulemap";
-				PRODUCT_MODULE_NAME = UIRadioButton;
-				PRODUCT_NAME = UIRadioButton;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSelectViewRadio";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = NSelectViewRadio;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		8AECB1CD4B11AA7CE4E9597E80BAC7F6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -985,38 +972,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B4DC688D454AD4B5DF0BD2991FF2645 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA71DDF7889A6E67B341B153F0F7466 /* NSelectViewRadio.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewRadio/NSelectViewRadio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio.modulemap";
-				PRODUCT_MODULE_NAME = NSelectViewRadio;
-				PRODUCT_NAME = NSelectViewRadio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1142,7 +1097,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1212,39 +1168,77 @@
 			};
 			name = Debug;
 		};
-		C713590977354CB906F72CD018203B2F /* Release */ = {
+		BF7192753EE13C086100AF1CF4E31CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA71DDF7889A6E67B341B153F0F7466 /* NSelectViewRadio.xcconfig */;
+			baseConfigurationReference = B88023D55E21A7034044F0EC2A8BDEE4 /* NSelectViewRadio.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSelectViewRadio";
-				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/ResourceBundle-NSelectViewRadio-NSelectViewRadio-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewRadio/NSelectViewRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio.modulemap";
+				PRODUCT_MODULE_NAME = NSelectViewRadio;
 				PRODUCT_NAME = NSelectViewRadio;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F861F773E65DF55276AD758FEF6EC9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C497780EA6341C572B13F13660B621 /* UIRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIRadioButton/UIRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIRadioButton/UIRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIRadioButton/UIRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = UIRadioButton;
+				PRODUCT_NAME = UIRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23A3E3048D275E2A217D08C17028E2AF /* Build configuration list for PBXNativeTarget "NSelectViewRadio-NSelectViewRadio" */ = {
+		3B385FDB29DF761EFCA870B582A4E1A2 /* Build configuration list for PBXNativeTarget "NSelectViewRadio-NSelectViewRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				707BBFA826E388FD8F798AC65247EC1A /* Debug */,
-				C713590977354CB906F72CD018203B2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26E34B0A16224F555319274C368DF3C5 /* Build configuration list for PBXNativeTarget "UIRadioButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35F97B6A89BB7F8C854C4B1156B72331 /* Debug */,
-				86BE522858D516343A2481768D4E467F /* Release */,
+				83455FC1AFCEF2C8A6A357584B5620B6 /* Debug */,
+				2CCD5E3F5DD540B70ABC850FCC32C86F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1254,15 +1248,6 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A24C6332119ECB84BC1111D701E7B39 /* Build configuration list for PBXNativeTarget "NSelectViewRadio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52E895B4DE4674692E01935E2582A8EB /* Debug */,
-				8B4DC688D454AD4B5DF0BD2991FF2645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1281,6 +1266,24 @@
 			buildConfigurations = (
 				98B6D1B19738EBD568D444E25544AD9A /* Debug */,
 				79BDDC5A2E53772395E40A5458E41B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE22ED380EF170994E5438C0CCF64623 /* Build configuration list for PBXNativeTarget "NSelectViewRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7192753EE13C086100AF1CF4E31CFE /* Debug */,
+				321E774E7EBD0BDEA4FD589FB3F800E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F2CCACF2BA6CCE7C25C04B8B12F70F /* Build configuration list for PBXNativeTarget "UIRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D9895131A80B49CC2D7C3BA9016579 /* Debug */,
+				F861F773E65DF55276AD758FEF6EC9EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
