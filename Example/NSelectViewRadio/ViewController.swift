@@ -15,25 +15,34 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let aiv = self.view
-        aiv!.backgroundColor = UIColor.groupTableViewBackground
-        
+        // === single ===
         let sortQ = NSelect()
-        sortQ.title = "Urutkan hasil"
+        sortQ.title = "Sort by"
         sortQ.mode = .single
-        sortQ.options = ["Jarak", "Harga Terendah", "Ruang Tersedia"]
+        sortQ.options = ["Distance", "Cheapest", "Availability"]
         sortQ.defaultSelections = ["Jarak"]
         
-        
-        let frame = CGRect(x: 8, y: 50, width: aiv!.frame.width-16, height: 120)
+        let frame = CGRect(x: 8, y: 50, width: view.frame.width-16, height: 120)
         let sortQView = NSelectViewRadio(frame: frame)
         sortQView.backgroundColor = UIColor.red
         sortQView.backing = sortQ
         
-        
-        aiv!.addSubview(sortQView)
+        self.view.addSubview(sortQView)
         sortQView.present()
-//        sortQView.sizeToFit()
+        
+        // === multi ===
+        let filterQ = NSelect()
+        filterQ.title = "Facilites"
+        filterQ.mode  = .multiple
+        filterQ.options = [ "Living room", "Trees", "Breakfast", "Supermarket", "Carport" ]
+        filterQ.defaultSelections = ["Trees", "Carport"]
+        
+        let frame2 = CGRect(x: 8, y: 50+120+16, width: view.frame.width-16, height: 180)
+        let filterQView = NSelectViewRadio(frame: frame2)
+        filterQView.backing = filterQ
+        
+        self.view.addSubview(filterQView)
+        filterQView.present()
     }
 }
 
