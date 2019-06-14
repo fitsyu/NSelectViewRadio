@@ -22,7 +22,8 @@ class ViewController: UIViewController {
         sortQ.options = ["Distance", "Cheapest", "Availability"]
         sortQ.defaultSelections = ["Jarak"]
         
-        let frame = CGRect(x: 8, y: 50, width: view.frame.width-16, height: 120)
+        let height = 30+CGFloat(30 * sortQ.options.count)
+        let frame = CGRect(x: 8, y: 50, width: view.frame.width-16, height: height)
         let sortQView = NSelectViewRadio(frame: frame)
         sortQView.backgroundColor = UIColor.red
         sortQView.backing = sortQ
@@ -37,7 +38,8 @@ class ViewController: UIViewController {
         filterQ.options = [ "Living room", "Trees", "Breakfast", "Supermarket", "Carport" ]
         filterQ.defaultSelections = ["Trees", "Carport"]
         
-        let frame2 = CGRect(x: 8, y: 50+120+16, width: view.frame.width-16, height: 180)
+        let height2 = 30+CGFloat(30 * filterQ.options.count)
+        let frame2 = CGRect(x: 8, y: 50+120+16, width: view.frame.width-16, height: height2)
         let filterQView = NSelectViewRadio(frame: frame2)
         filterQView.backing = filterQ
         

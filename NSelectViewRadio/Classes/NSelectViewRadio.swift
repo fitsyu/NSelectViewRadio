@@ -44,6 +44,13 @@ public class NSelectViewRadio: UIView, NSelectView {
         
         setupCollectionView()
         
+        // show default if any
+        backing.defaultSelections?.forEach {
+            if let idx = backing.options.firstIndex(of: $0) {
+                let ip = IndexPath(item: idx, section: 0)
+                collectionView.delegate?.collectionView?(collectionView, didSelectItemAt: ip)
+            }
+        }
     }
     
     func setupCollectionView() {
@@ -121,7 +128,7 @@ extension NSelectViewRadio: UICollectionViewDelegateFlowLayout {
         let leading: CGFloat = 0
         let radioButtonWidth: CGFloat = 30.0
         let space: CGFloat = 8.0
-        let labelWidth: CGFloat = size.width * 2.0
+        let labelWidth: CGFloat = self.frame.size.width * 0.4  //size.width * 2.0 
         let trailing: CGFloat = 8.0
         
         size.width = leading + radioButtonWidth + space + labelWidth + trailing
@@ -132,10 +139,10 @@ extension NSelectViewRadio: UICollectionViewDelegateFlowLayout {
     
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 4
+        return 2
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 4
+        return 2
     }
 }
