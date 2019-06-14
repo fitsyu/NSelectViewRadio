@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSelectViewRadio_Example' do
+  pod 'NSelectViewRadio', :path => '../'
+
+  target 'NSelectViewRadio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
