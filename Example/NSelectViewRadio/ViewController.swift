@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let aiv = self.view
+        aiv!.backgroundColor = UIColor.groupTableViewBackground
         
         let sortQ = NSelect()
         sortQ.title = "Urutkan hasil"
@@ -24,16 +25,14 @@ class ViewController: UIViewController {
         sortQ.defaultSelections = ["Jarak"]
         
         
-        let frame = CGRect(x: 0, y: 0, width: aiv!.frame.width, height: 0)
+        let frame = CGRect(x: 8, y: 50, width: aiv!.frame.width-16, height: 120)
         let sortQView = NSelectViewRadio(frame: frame)
         sortQView.backing = sortQ
         
         
-        //            print( sortQView.sizeThatFits(aiv!.frame.size) )
-        
         aiv!.addSubview(sortQView)
         sortQView.present()
-        sortQView.sizeToFit()
+//        sortQView.sizeToFit()
     }
 }
 

@@ -9,6 +9,9 @@ import UIRadioButton
 
 public class NSelectViewRadio: UIView, NSelectView {
     
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     public var backing: NSelect = NSelect()
     
     public var delegate: NSelectViewDelegate?
@@ -17,88 +20,64 @@ public class NSelectViewRadio: UIView, NSelectView {
     
     private var optionViews: [UIRadioButton:String] = [:]
     
+    
+    
     public func present() {
         
-
-        var y = 0
-
-        let label = UILabel(frame: CGRect(x: 0, y: y, width: 100, height: 30))
-        label.text = backing.title
-
-        y += 30
-        self.addSubview(label)
-
-        backing.options.forEach {
-            let label = UILabel(frame: CGRect(x: 50, y: y, width: 100, height: 30))
-            label.text = $0
-
-            y += 30
-            self.addSubview(label)
-
-
-            let rb = UIRadioButton()
-            rb.frame.size   = CGSize(width: 30, height: 30)
-            rb.frame.origin = label.frame.origin.applying(
-                CGAffineTransform(translationX: -50, y: 0))
-            self.addSubview(rb)
-
-            rb.addTarget(self, action: #selector(updateSelections(_:)), for: .valueChanged)
-
-            if backing.mode == .single {
-                // draw radio buttons
-                radioButtons.add(rb)
-            } else {
-                // draw checkboxes
-
-            }
-
-            self.optionViews[rb] = $0
-        }
+        // 0
+        let url = Bundle(for: self.classForCoder).url(forResource: "NSelectViewRadio", withExtension: "bundle")
         
+        // 1
+        let bundle = Bundle(url: url!)
         
-        //
-        //
-        //
-        //        let op1 = makeOptionView(title: "Hello")
-        //        let op2 = makeOptionView(title: "World")
-        //
-        //        let stackView = UIStackView(frame: CGRect(x: 0, y: 40,
-        //                                                  width: self.frame.width,
-        //                                                  height: self.frame.height))
-        //        stackView.axis = .vertical
-        //        stackView.alignment = .leading
-        //        stackView.spacing = 8
-        //        stackView.backgroundColor = UIColor.groupTableViewBackground
-        //
-        //        stackView.addArrangedSubview(op1)
-        //        stackView.addArrangedSubview(op2)
-        //
-        //        self.addSubview(stackView)
+        // 2
+        let nib = bundle?.loadNibNamed("NSelectViewRadio", owner: self, options: nil)
+        
+        // 3
+        let view = nib?.first as! UIView
+        view.frame = self.bounds
+        self.addSubview(view)
+
+        titleLabel.text = backing.title
+        
+        setupCollectionView()
+        
+
+//        var y = 0
+//
+//        let label = UILabel(frame: CGRect(x: 0, y: y, width: 100, height: 30))
+//        label.text = backing.title
+//
+//        y += 30
+//        self.addSubview(label)
+//
+//        backing.options.forEach {
+//            let label = UILabel(frame: CGRect(x: 50, y: y, width: 100, height: 30))
+//            label.text = $0
+//
+//            y += 30
+//            self.addSubview(label)
+//
+//
+//            let rb = UIRadioButton()
+//            rb.frame.size   = CGSize(width: 30, height: 30)
+//            rb.frame.origin = label.frame.origin.applying(
+//                CGAffineTransform(translationX: -50, y: 0))
+//            self.addSubview(rb)
+//
+//            rb.addTarget(self, action: #selector(updateSelections(_:)), for: .valueChanged)
+//
+//            if backing.mode == .single {
+//                // draw radio buttons
+//                radioButtons.add(rb)
+//            } else {
+//                // draw checkboxes
+//
+//            }
+//
+//            self.optionViews[rb] = $0
+//        }
     }
-    
-    //    private func makeOptionView(title: String) -> UIStackView  {
-    //
-    //        let stackView = UIStackView()
-    //        stackView.axis = .horizontal
-    //        stackView.spacing = 8
-    //        stackView.alignment = .fill
-    //
-    //        let radioButton = UIRadioButton()
-    //        radioButton.frame.size = CGSize(width: 30, height: 30)
-    //        radioButton.tintColor = UIColor.blue
-    //
-    //        let label = UILabel()
-    //        label.text = title
-    //        label.sizeToFit()
-    //
-    //        stackView.frame.size = CGSize(width: 30 + 8 + label.frame.size.width ,
-    //            height: label.frame.size.height)
-    //
-    //        stackView.addArrangedSubview(radioButton)
-    //        stackView.addArrangedSubview(label)
-    //
-    //        return stackView
-    //    }
     
     @objc func updateSelections(_ sender: UIRadioButton) {
         
@@ -111,7 +90,63 @@ public class NSelectViewRadio: UIView, NSelectView {
         }
     }
     
+    func setupCollectionView() {
+        
+        // 0
+        let url = Bundle(for: self.classForCoder).url(forResource: "NSelectViewRadio", withExtension: "bundle")
+        
+        // 1
+        let bundle = Bundle(url: url!)
+        
+        // 2
+        let nib = UINib(nibName: "OptionViewCell", bundle: bundle!)
+        
+        collectionView.register(nib, forCellWithReuseIdentifier: OptionViewCell.ID)
+        
+        collectionView.dataSource = self
+    }
     
 }
 
+extension NSelectViewRadio: UICollectionViewDataSource {
+    
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return backing.options.count
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: OptionViewCell.ID, for: indexPath) as! OptionViewCell
+        
+        cell.meta = OptionViewCell.Data(title: backing.options[indexPath.item],
+                                        selected: false)
+        
+        return cell
+    }
+}
+
+
+class OptionViewCell: UICollectionViewCell {
+    
+    static var ID: String = "OptionViewCell"
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var radioButton: UIRadioButton!
+    
+    struct Data {
+        var title: String
+        var selected: Bool = false
+    }
+    
+    var meta: Data! {
+        didSet {
+            titleLabel.text = meta.title
+            radioButton.isSelected = meta.selected
+        }
+    }
+}
 

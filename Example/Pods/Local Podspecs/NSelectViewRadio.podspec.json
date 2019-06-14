@@ -22,7 +22,7 @@
   "source_files": "NSelectViewRadio/Classes/**/*",
   "resource_bundles": {
     "NSelectViewRadio": [
-      "NSelectViewRadio/Assets/*.png"
+      "NSelectViewRadio/Assets/*.{png,xib}"
     ]
   },
   "dependencies": {

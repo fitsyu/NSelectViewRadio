@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'NSelectViewRadio/Classes/**/*'
   
    s.resource_bundles = {
-     'NSelectViewRadio' => ['NSelectViewRadio/Assets/*.png']
+     'NSelectViewRadio' => ['NSelectViewRadio/Assets/*.{png,xib}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
