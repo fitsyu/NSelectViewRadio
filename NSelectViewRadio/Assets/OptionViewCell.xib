@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,13 +19,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0V-81-w5j">
-                        <rect key="frame" x="58" y="31.5" width="86" height="19.5"/>
+                        <rect key="frame" x="38" y="26.5" width="106" height="19.5"/>
                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-KI-Xel" customClass="UIRadioButton" customModule="UIRadioButton">
-                        <rect key="frame" x="20" y="26" width="30" height="30"/>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-KI-Xel" customClass="UIRadioButton" customModule="UIRadioButton">
+                        <rect key="frame" x="0.0" y="21" width="30" height="30"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="s2Q-QL-GQh"/>
@@ -40,18 +39,18 @@
                     </view>
                 </subviews>
             </view>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             <constraints>
-                <constraint firstItem="d0V-81-w5j" firstAttribute="centerY" secondItem="sx4-uq-xbG" secondAttribute="centerY" id="Tad-xq-GQX"/>
-                <constraint firstItem="M9f-KI-Xel" firstAttribute="centerY" secondItem="sx4-uq-xbG" secondAttribute="centerY" id="VF0-im-LHU"/>
-                <constraint firstItem="M9f-KI-Xel" firstAttribute="leading" secondItem="sx4-uq-xbG" secondAttribute="leading" constant="20" id="nFx-Oj-LHU"/>
+                <constraint firstItem="d0V-81-w5j" firstAttribute="centerY" secondItem="mHE-Fl-ryZ" secondAttribute="centerY" id="Tad-xq-GQX"/>
+                <constraint firstItem="M9f-KI-Xel" firstAttribute="centerY" secondItem="mHE-Fl-ryZ" secondAttribute="centerY" id="VF0-im-LHU"/>
+                <constraint firstItem="M9f-KI-Xel" firstAttribute="leading" secondItem="mHE-Fl-ryZ" secondAttribute="leading" id="nFx-Oj-LHU"/>
                 <constraint firstItem="d0V-81-w5j" firstAttribute="leading" secondItem="M9f-KI-Xel" secondAttribute="trailing" constant="8" id="nqn-lw-9Lc"/>
-                <constraint firstItem="sx4-uq-xbG" firstAttribute="trailing" secondItem="d0V-81-w5j" secondAttribute="trailing" constant="8" id="zlF-hd-YAk"/>
+                <constraint firstAttribute="trailing" secondItem="d0V-81-w5j" secondAttribute="trailing" constant="8" id="zlF-hd-YAk"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="sx4-uq-xbG"/>
             <size key="customSize" width="152" height="72"/>
             <connections>
                 <outlet property="radioButton" destination="M9f-KI-Xel" id="W2h-3T-hCv"/>
-                <outlet property="selectedBackgroundView" destination="d0V-81-w5j" id="VcQ-Od-L49"/>
+                <outlet property="titleLabel" destination="d0V-81-w5j" id="3KU-uk-cVJ"/>
             </connections>
             <point key="canvasLocation" x="360.86956521739131" y="324.10714285714283"/>
         </collectionViewCell>

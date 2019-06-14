@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         
         let frame = CGRect(x: 8, y: 50, width: aiv!.frame.width-16, height: 120)
         let sortQView = NSelectViewRadio(frame: frame)
+        sortQView.backgroundColor = UIColor.red
         sortQView.backing = sortQ
         
         
