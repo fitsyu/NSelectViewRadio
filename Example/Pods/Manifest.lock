@@ -1,0 +1,16 @@
+PODS:
+  - NSelectViewRadio (0.1.0)
+
+DEPENDENCIES:
+  - NSelectViewRadio (from `../`)
+
+EXTERNAL SOURCES:
+  NSelectViewRadio:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSelectViewRadio: 0d4fecb300afac4a909148221ce896f1cb13d962
+
+PODFILE CHECKSUM: 03a9023c2c8c76e928493ae3d05cac9ebcdcfd5e
+
+COCOAPODS: 1.6.1

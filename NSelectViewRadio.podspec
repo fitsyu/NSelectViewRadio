@@ -26,17 +26,19 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fitsyu' => 'fitsyu2@gmail.com' }
   s.source           = { :git => 'https://github.com/fitsyu/NSelectViewRadio.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/fitsyu'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'NSelectViewRadio/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NSelectViewRadio' => ['NSelectViewRadio/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'NSelectViewRadio' => ['NSelectViewRadio/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'NSelect'
+  s.dependency 'UIRadioButton'
 end

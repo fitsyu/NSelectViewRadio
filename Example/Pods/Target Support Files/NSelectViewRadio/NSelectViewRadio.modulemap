@@ -1,0 +1,6 @@
+framework module NSelectViewRadio {
+  umbrella header "NSelectViewRadio-umbrella.h"
+
+  export *
+  module * { export * }
+}

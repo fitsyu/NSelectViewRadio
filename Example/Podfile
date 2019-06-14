@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'NSelectViewRadio_Example' do
   pod 'NSelectViewRadio', :path => '../'
+  
+  pod 'NSelect', :git => 'https://github.com/fitsyu/NSelect.git'
+  pod 'UIRadioButton', :git => 'https://github.com/fitsyu/UIRadioButton.git'
 
   target 'NSelectViewRadio_Tests' do
     inherit! :search_paths

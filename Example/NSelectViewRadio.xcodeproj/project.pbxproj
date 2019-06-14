@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		164E2FC3C01C499A40D15AE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		164E2FC3C01C499A40D15AE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44C53B31650A1AC66D24555D /* Pods-NSelectViewRadio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSelectViewRadio_Tests.release.xcconfig"; path = "Target Support Files/Pods-NSelectViewRadio_Tests/Pods-NSelectViewRadio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NSelectViewRadio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSelectViewRadio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		65BFE338B5DFB8902A63B0E4 /* Pods_NSelectViewRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSelectViewRadio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CF40BF6034E0284DA0ED93 /* Pods-NSelectViewRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSelectViewRadio_Example.debug.xcconfig"; path = "Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		89105FF4F3B527B7A2C8B73E /* Pods-NSelectViewRadio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSelectViewRadio_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NSelectViewRadio_Tests/Pods-NSelectViewRadio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B93D714CDFADA3D90556D123 /* NSelectViewRadio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NSelectViewRadio.podspec; path = ../NSelectViewRadio.podspec; sourceTree = "<group>"; };
+		B93D714CDFADA3D90556D123 /* NSelectViewRadio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NSelectViewRadio.podspec; path = ../NSelectViewRadio.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA1735C39DBAEFD9AFF7C2D4 /* Pods-NSelectViewRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSelectViewRadio_Example.release.xcconfig"; path = "Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EB9FFAAC0B7333A0A8B518AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB9FFAAC0B7333A0A8B518AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F10B4AB90CE550C2FE36EFBC /* Pods_NSelectViewRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSelectViewRadio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				89105FF4F3B527B7A2C8B73E /* Pods-NSelectViewRadio_Tests.debug.xcconfig */,
 				44C53B31650A1AC66D24555D /* Pods-NSelectViewRadio_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

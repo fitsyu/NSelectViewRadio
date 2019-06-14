@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27344D949F7CDE89D49B9937BD5F064B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		372CCD78FAA3E04EAE101E03BC6D2BFE /* Pods-NSelectViewRadio_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6ED80FBF856011B4C7D7506D79878C /* Pods-NSelectViewRadio_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F05E3A2FA0386EBE7361EBF16343EF9 /* Pods-NSelectViewRadio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D2907BF2BD468EF299624487C08ED /* Pods-NSelectViewRadio_Tests-dummy.m */; };
+		5AEB4E2AA1183A8B853E61828C0DCAF4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6089B6ACA77804F7B398AEEA2AB2CB2 /* ReplaceMe.swift */; };
+		60E23A695C6A2A468155F7CE5A3F256F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		64CC68A20F8F71876C408013F3AF2953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		83BDB96986F57D948E48A66985845D49 /* Pods-NSelectViewRadio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5157B834A680F83D9F38480695E22D58 /* Pods-NSelectViewRadio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09AFE3018E212B1713BDB679A3D904F /* NSelectViewRadio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FAF2A0A9605C7C25EF9F9FF0E93544 /* NSelectViewRadio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8608C7214A25DEDFB1A62C873317FB7 /* Pods-NSelectViewRadio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397B4D433F0FEBF3D15A1B832D6A9F11 /* Pods-NSelectViewRadio_Example-dummy.m */; };
+		FE65BC51E67CFCFF21AC3D006E866B99 /* NSelectViewRadio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A650F2327891E4A541488E48321975C0 /* NSelectViewRadio-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E72CFB3D18B92E0D5984F00B642127E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5122E711774FD1DCC8AEB8016F64759F;
+			remoteInfo = "Pods-NSelectViewRadio_Example";
+		};
+		509FCE51D0E78563FE39643AAC309837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9942A3C5D5FBB6F51F6145D9C8CE79;
+			remoteInfo = NSelectViewRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9A160826FD9DC3048967737F16776C /* Pods-NSelectViewRadio_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewRadio_Example-Info.plist"; sourceTree = "<group>"; };
+		10E48E28316B25CE99B0F7EC5E56593D /* Pods-NSelectViewRadio_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewRadio_Tests-Info.plist"; sourceTree = "<group>"; };
+		1D2176CAA4AD58C9B5429C516122A98F /* Pods-NSelectViewRadio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewRadio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		295D2907BF2BD468EF299624487C08ED /* Pods-NSelectViewRadio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSelectViewRadio_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		340A17FD8D477D2EAF76FC853F923F03 /* Pods-NSelectViewRadio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSelectViewRadio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35F629CF063CF73FB45E9DBB18967382 /* Pods-NSelectViewRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3826EACC2921A5494589B5C4A65BF711 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		397B4D433F0FEBF3D15A1B832D6A9F11 /* Pods-NSelectViewRadio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSelectViewRadio_Example-dummy.m"; sourceTree = "<group>"; };
+		47F4C247C80328CC7C7C7E8E14DDF673 /* NSelectViewRadio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSelectViewRadio.modulemap; sourceTree = "<group>"; };
+		4D5C163FA5927908D1E97CE130F06BEC /* Pods-NSelectViewRadio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSelectViewRadio_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4EEE6153FE64C40E99A1795725B83E50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5157B834A680F83D9F38480695E22D58 /* Pods-NSelectViewRadio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSelectViewRadio_Example-umbrella.h"; sourceTree = "<group>"; };
+		75FAF2A0A9605C7C25EF9F9FF0E93544 /* NSelectViewRadio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewRadio-umbrella.h"; sourceTree = "<group>"; };
+		76C39998915E115109F871BA96B7EAB7 /* Pods-NSelectViewRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8569740DB7448AD33325D6892E89A6A4 /* Pods_NSelectViewRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSelectViewRadio_Example.framework; path = "Pods-NSelectViewRadio_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6ED80FBF856011B4C7D7506D79878C /* Pods-NSelectViewRadio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSelectViewRadio_Tests-umbrella.h"; sourceTree = "<group>"; };
+		965D14CFE8635B46746411CD9AC56B3B /* NSelectViewRadio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSelectViewRadio-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A070887003BB34C085A934DFB46F5E4D /* NSelectViewRadio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NSelectViewRadio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FEFAAE063C0ADEF71C4DCB7BA873BA /* Pods_NSelectViewRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSelectViewRadio_Tests.framework; path = "Pods-NSelectViewRadio_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B4955892CDB884D626896422B4E1CB /* Pods-NSelectViewRadio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A650F2327891E4A541488E48321975C0 /* NSelectViewRadio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSelectViewRadio-dummy.m"; sourceTree = "<group>"; };
+		B110905863D3B602CAA82D8D98B18F96 /* NSelectViewRadio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSelectViewRadio.xcconfig; sourceTree = "<group>"; };
+		C3CB97160CEE9C1C580342A83C3E4FD8 /* NSelectViewRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSelectViewRadio-Info.plist"; sourceTree = "<group>"; };
+		C5C203E0D6FBC56F734A346E3B57C413 /* Pods-NSelectViewRadio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSelectViewRadio_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E13866703254B77AE79055884A554227 /* Pods-NSelectViewRadio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSelectViewRadio_Tests.modulemap"; sourceTree = "<group>"; };
+		E6089B6ACA77804F7B398AEEA2AB2CB2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NSelectViewRadio/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EACB41215298F39F613ED53CF8E3A1A1 /* NSelectViewRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSelectViewRadio.framework; path = NSelectViewRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66463BD00DD06F9D071A57CB68DD7AF /* Pods-NSelectViewRadio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSelectViewRadio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7D4C78454CDBC3372B4A5791FA483ED /* Pods-NSelectViewRadio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSelectViewRadio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC5E08DD3275C0CFE6185CC4067348DF /* Pods-NSelectViewRadio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSelectViewRadio_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA3C354C183D3484A05225E3C61E880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E23A695C6A2A468155F7CE5A3F256F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DF58D68E1532E0FF567207807EE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CC68A20F8F71876C408013F3AF2953 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4B131C14689D7335361EC61D6CD96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27344D949F7CDE89D49B9937BD5F064B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CE77E085FEF94148554F5558C7CF46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F4C247C80328CC7C7C7E8E14DDF673 /* NSelectViewRadio.modulemap */,
+				B110905863D3B602CAA82D8D98B18F96 /* NSelectViewRadio.xcconfig */,
+				A650F2327891E4A541488E48321975C0 /* NSelectViewRadio-dummy.m */,
+				C3CB97160CEE9C1C580342A83C3E4FD8 /* NSelectViewRadio-Info.plist */,
+				965D14CFE8635B46746411CD9AC56B3B /* NSelectViewRadio-prefix.pch */,
+				75FAF2A0A9605C7C25EF9F9FF0E93544 /* NSelectViewRadio-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSelectViewRadio";
+			sourceTree = "<group>";
+		};
+		175F429A8BDBBC70937116AF18BD076B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1D6D123E0FFAEDCC068A31E524C9EC7 /* NSelectViewRadio */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39BFEEB61F421AFC17E21876EADBFAD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0543F4D7F5ECC4A972E2FCAB77822 /* Pods-NSelectViewRadio_Example */,
+				A8ECF73905A3D34103A8217AC3ACFB54 /* Pods-NSelectViewRadio_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B40C18A40F7C9A4F9FC9DF9503E870F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACB41215298F39F613ED53CF8E3A1A1 /* NSelectViewRadio.framework */,
+				8569740DB7448AD33325D6892E89A6A4 /* Pods_NSelectViewRadio_Example.framework */,
+				A0FEFAAE063C0ADEF71C4DCB7BA873BA /* Pods_NSelectViewRadio_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636EEA6B2D7047A85182672763EC7496 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3826EACC2921A5494589B5C4A65BF711 /* LICENSE */,
+				A070887003BB34C085A934DFB46F5E4D /* NSelectViewRadio.podspec */,
+				4EEE6153FE64C40E99A1795725B83E50 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A1D6D123E0FFAEDCC068A31E524C9EC7 /* NSelectViewRadio */ = {
+			isa = PBXGroup;
+			children = (
+				E6089B6ACA77804F7B398AEEA2AB2CB2 /* ReplaceMe.swift */,
+				636EEA6B2D7047A85182672763EC7496 /* Pod */,
+				04CE77E085FEF94148554F5558C7CF46 /* Support Files */,
+			);
+			name = NSelectViewRadio;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A8ECF73905A3D34103A8217AC3ACFB54 /* Pods-NSelectViewRadio_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E13866703254B77AE79055884A554227 /* Pods-NSelectViewRadio_Tests.modulemap */,
+				F66463BD00DD06F9D071A57CB68DD7AF /* Pods-NSelectViewRadio_Tests-acknowledgements.markdown */,
+				340A17FD8D477D2EAF76FC853F923F03 /* Pods-NSelectViewRadio_Tests-acknowledgements.plist */,
+				295D2907BF2BD468EF299624487C08ED /* Pods-NSelectViewRadio_Tests-dummy.m */,
+				10E48E28316B25CE99B0F7EC5E56593D /* Pods-NSelectViewRadio_Tests-Info.plist */,
+				8E6ED80FBF856011B4C7D7506D79878C /* Pods-NSelectViewRadio_Tests-umbrella.h */,
+				A4B4955892CDB884D626896422B4E1CB /* Pods-NSelectViewRadio_Tests.debug.xcconfig */,
+				C5C203E0D6FBC56F734A346E3B57C413 /* Pods-NSelectViewRadio_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSelectViewRadio_Tests";
+			path = "Target Support Files/Pods-NSelectViewRadio_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				175F429A8BDBBC70937116AF18BD076B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5B40C18A40F7C9A4F9FC9DF9503E870F /* Products */,
+				39BFEEB61F421AFC17E21876EADBFAD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7A0543F4D7F5ECC4A972E2FCAB77822 /* Pods-NSelectViewRadio_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E08DD3275C0CFE6185CC4067348DF /* Pods-NSelectViewRadio_Example.modulemap */,
+				F7D4C78454CDBC3372B4A5791FA483ED /* Pods-NSelectViewRadio_Example-acknowledgements.markdown */,
+				1D2176CAA4AD58C9B5429C516122A98F /* Pods-NSelectViewRadio_Example-acknowledgements.plist */,
+				397B4D433F0FEBF3D15A1B832D6A9F11 /* Pods-NSelectViewRadio_Example-dummy.m */,
+				4D5C163FA5927908D1E97CE130F06BEC /* Pods-NSelectViewRadio_Example-frameworks.sh */,
+				0C9A160826FD9DC3048967737F16776C /* Pods-NSelectViewRadio_Example-Info.plist */,
+				5157B834A680F83D9F38480695E22D58 /* Pods-NSelectViewRadio_Example-umbrella.h */,
+				35F629CF063CF73FB45E9DBB18967382 /* Pods-NSelectViewRadio_Example.debug.xcconfig */,
+				76C39998915E115109F871BA96B7EAB7 /* Pods-NSelectViewRadio_Example.release.xcconfig */,
+			);
+			name = "Pods-NSelectViewRadio_Example";
+			path = "Target Support Files/Pods-NSelectViewRadio_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01A3DB09E5A79E612E955C197CF97045 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BDB96986F57D948E48A66985845D49 /* Pods-NSelectViewRadio_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F55F791864F7D0AFAB8E76F6A8533F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09AFE3018E212B1713BDB679A3D904F /* NSelectViewRadio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E8DD82EC925F1DDECC135A1DE1D486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372CCD78FAA3E04EAE101E03BC6D2BFE /* Pods-NSelectViewRadio_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5122E711774FD1DCC8AEB8016F64759F /* Pods-NSelectViewRadio_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D340F9A20A13FB1B1BB0AFECBA569587 /* Build configuration list for PBXNativeTarget "Pods-NSelectViewRadio_Example" */;
+			buildPhases = (
+				01A3DB09E5A79E612E955C197CF97045 /* Headers */,
+				D72D8F2DB24B4F728E278E01140F4BA8 /* Sources */,
+				DB5DF58D68E1532E0FF567207807EE73 /* Frameworks */,
+				1C3160B294EDBA6014A3064BE320EA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE44C18F85E4FC5E98CFA7BFCC399F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSelectViewRadio_Example";
+			productName = "Pods-NSelectViewRadio_Example";
+			productReference = 8569740DB7448AD33325D6892E89A6A4 /* Pods_NSelectViewRadio_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC9942A3C5D5FBB6F51F6145D9C8CE79 /* NSelectViewRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340818A610EAD59D803D97799ADD2B57 /* Build configuration list for PBXNativeTarget "NSelectViewRadio" */;
+			buildPhases = (
+				35F55F791864F7D0AFAB8E76F6A8533F /* Headers */,
+				ADBF7248339BAA429F6B3D15B07920A8 /* Sources */,
+				2FA3C354C183D3484A05225E3C61E880 /* Frameworks */,
+				D84FFEF0105F2E214E1C1844FE31F9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSelectViewRadio;
+			productName = NSelectViewRadio;
+			productReference = EACB41215298F39F613ED53CF8E3A1A1 /* NSelectViewRadio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB1A2E34DFB76DC4BC788A0BA1057C51 /* Pods-NSelectViewRadio_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0E999F132C5B855E8CA3AE37BCDB6B /* Build configuration list for PBXNativeTarget "Pods-NSelectViewRadio_Tests" */;
+			buildPhases = (
+				F4E8DD82EC925F1DDECC135A1DE1D486 /* Headers */,
+				781F58E101E16E3A20895DDC7DDEEC3A /* Sources */,
+				DE4B131C14689D7335361EC61D6CD96C /* Frameworks */,
+				096CF91CF5F840669FDA1725A958FCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460458821F435041599AD16335D77C34 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSelectViewRadio_Tests";
+			productName = "Pods-NSelectViewRadio_Tests";
+			productReference = A0FEFAAE063C0ADEF71C4DCB7BA873BA /* Pods_NSelectViewRadio_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5B40C18A40F7C9A4F9FC9DF9503E870F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9942A3C5D5FBB6F51F6145D9C8CE79 /* NSelectViewRadio */,
+				5122E711774FD1DCC8AEB8016F64759F /* Pods-NSelectViewRadio_Example */,
+				FB1A2E34DFB76DC4BC788A0BA1057C51 /* Pods-NSelectViewRadio_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096CF91CF5F840669FDA1725A958FCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3160B294EDBA6014A3064BE320EA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84FFEF0105F2E214E1C1844FE31F9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		781F58E101E16E3A20895DDC7DDEEC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F05E3A2FA0386EBE7361EBF16343EF9 /* Pods-NSelectViewRadio_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBF7248339BAA429F6B3D15B07920A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE65BC51E67CFCFF21AC3D006E866B99 /* NSelectViewRadio-dummy.m in Sources */,
+				5AEB4E2AA1183A8B853E61828C0DCAF4 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72D8F2DB24B4F728E278E01140F4BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8608C7214A25DEDFB1A62C873317FB7 /* Pods-NSelectViewRadio_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460458821F435041599AD16335D77C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NSelectViewRadio_Example";
+			target = 5122E711774FD1DCC8AEB8016F64759F /* Pods-NSelectViewRadio_Example */;
+			targetProxy = 4E72CFB3D18B92E0D5984F00B642127E /* PBXContainerItemProxy */;
+		};
+		9BE44C18F85E4FC5E98CFA7BFCC399F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSelectViewRadio;
+			target = BC9942A3C5D5FBB6F51F6145D9C8CE79 /* NSelectViewRadio */;
+			targetProxy = 509FCE51D0E78563FE39643AAC309837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AE8320A43BC754BA0E3AA496BE24A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B4955892CDB884D626896422B4E1CB /* Pods-NSelectViewRadio_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewRadio_Tests/Pods-NSelectViewRadio_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewRadio_Tests/Pods-NSelectViewRadio_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		825518980D5744974E2D2C2DCE4DA260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B110905863D3B602CAA82D8D98B18F96 /* NSelectViewRadio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewRadio/NSelectViewRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio.modulemap";
+				PRODUCT_MODULE_NAME = NSelectViewRadio;
+				PRODUCT_NAME = NSelectViewRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AECB1CD4B11AA7CE4E9597E80BAC7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C203E0D6FBC56F734A346E3B57C413 /* Pods-NSelectViewRadio_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewRadio_Tests/Pods-NSelectViewRadio_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewRadio_Tests/Pods-NSelectViewRadio_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF8689F78214656188ACE3A7912C1D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C39998915E115109F871BA96B7EAB7 /* Pods-NSelectViewRadio_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCB0FB5396D41B9633698CB464932500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F629CF063CF73FB45E9DBB18967382 /* Pods-NSelectViewRadio_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4EB25C7C4B683A90ADD281138031280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B110905863D3B602CAA82D8D98B18F96 /* NSelectViewRadio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSelectViewRadio/NSelectViewRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSelectViewRadio/NSelectViewRadio.modulemap";
+				PRODUCT_MODULE_NAME = NSelectViewRadio;
+				PRODUCT_NAME = NSelectViewRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		340818A610EAD59D803D97799ADD2B57 /* Build configuration list for PBXNativeTarget "NSelectViewRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EB25C7C4B683A90ADD281138031280 /* Debug */,
+				825518980D5744974E2D2C2DCE4DA260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D340F9A20A13FB1B1BB0AFECBA569587 /* Build configuration list for PBXNativeTarget "Pods-NSelectViewRadio_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB0FB5396D41B9633698CB464932500 /* Debug */,
+				BF8689F78214656188ACE3A7912C1D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0E999F132C5B855E8CA3AE37BCDB6B /* Build configuration list for PBXNativeTarget "Pods-NSelectViewRadio_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE8320A43BC754BA0E3AA496BE24A14 /* Debug */,
+				8AECB1CD4B11AA7CE4E9597E80BAC7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
