@@ -45,12 +45,7 @@ public class NSelectViewRadio: UIView, NSelectView {
         setupCollectionView()
         
         // show default if any
-        backing.defaultSelections?.forEach {
-            if let idx = backing.options.firstIndex(of: $0) {
-                let ip = IndexPath(item: idx, section: 0)
-                collectionView.delegate?.collectionView?(collectionView, didSelectItemAt: ip)
-            }
-        }
+        //  preselectDefaults()
     }
     
     func setupCollectionView() {
@@ -63,6 +58,16 @@ public class NSelectViewRadio: UIView, NSelectView {
         collectionView.delegate   = self
         
         collectionView.allowsMultipleSelection = (backing.mode == .multiple)
+    }
+    
+    
+    func preselectDefaults() {
+        backing.defaultSelections?.forEach {
+            if let idx = backing.options.firstIndex(of: $0) {
+                let ip = IndexPath(item: idx, section: 0)
+                collectionView.delegate?.collectionView?(collectionView, didSelectItemAt: ip)
+            }
+        }
     }
     
 }
