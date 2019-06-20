@@ -70,6 +70,18 @@ public class NSelectViewRadio: UIView, NSelectView {
         }
     }
     
+    public override var intrinsicContentSize: CGSize {
+        
+        let itemsPerRow = CGFloat(2)
+        let rowSize = CGFloat(50)  // 10 + 30 + 10
+        
+        let th = self.titleLabel.frame.height
+        
+        let ch = CGFloat( ceil (  CGFloat(backing.options.count) / itemsPerRow ) * rowSize )
+        let hh = 8 + th + 8 + 1 + ch
+        return CGSize(width: 300, height: hh)
+    }
+    
 }
 
 extension NSelectViewRadio: UICollectionViewDataSource {
@@ -133,7 +145,7 @@ extension NSelectViewRadio: UICollectionViewDelegateFlowLayout {
         let leading: CGFloat = 0
         let radioButtonWidth: CGFloat = 30.0
         let space: CGFloat = 8.0
-        let labelWidth: CGFloat = self.frame.size.width * 0.4  //size.width * 2.0 
+        let labelWidth: CGFloat = self.frame.size.width * 0.25  //size.width * 2.0
         let trailing: CGFloat = 8.0
         
         size.width = leading + radioButtonWidth + space + labelWidth + trailing
