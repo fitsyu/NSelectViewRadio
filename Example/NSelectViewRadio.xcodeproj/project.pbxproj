@@ -311,8 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NSelectViewRadio_Example/Pods-NSelectViewRadio_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NSelect/NSelect.framework",
@@ -320,8 +318,6 @@
 				"${BUILT_PRODUCTS_DIR}/UIRadioButton/UIRadioButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSelect.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSelectViewRadio.framework",
