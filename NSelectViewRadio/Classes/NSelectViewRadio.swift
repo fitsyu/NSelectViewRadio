@@ -32,6 +32,12 @@ public class NSelectViewRadio: UIView, NSelectView {
     
     public func present() {
         
+        // clear all exisiting subviews
+        // making sure this is the only view to be added there
+        // useful for cells
+        
+        self.subviews.forEach { $0.removeFromSuperview() }
+        
         // 2
         let nib = bundle.loadNibNamed("NSelectViewRadio", owner: self, options: nil)
         
