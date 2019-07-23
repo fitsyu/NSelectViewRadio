@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         sortQ.title = "Sort by"
         sortQ.mode = .single
         sortQ.options = ["Distance", "Cheapest", "Availability"]
-        sortQ.defaultSelections = ["Jarak"]
+        sortQ.select(options: "Distance")
         
         let height = 30+CGFloat(30 * sortQ.options.count)
         let frame = CGRect(x: 8, y: 50, width: view.frame.width-16, height: height)
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         filterQ.title = "Facilites"
         filterQ.mode  = .multiple
         filterQ.options = [ "Living room", "Trees", "Breakfast", "Supermarket", "Carport" ]
-        filterQ.defaultSelections = ["Trees", "Carport"]
+        filterQ.select(options: "Trees", "Carport")
         
         let height2 = 30+CGFloat(30 * filterQ.options.count)
         let frame2 = CGRect(x: 8, y: 50+120+16, width: view.frame.width-16, height: height2)
